@@ -4,8 +4,7 @@ include 'challengeData.php';
 
 // get content from readme.example
 
-$readme = file_get_contents('readme.example');
-
+$readme = file_get_contents('template/readme.example');
 
 // create a html list of the challenges
 $challengeList = '';

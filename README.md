@@ -9,3 +9,4 @@ This is my repository for the 2025 Advent of Code. I will mainly use PHP, but I 
 <center><img src="headers/header5.webp" width="100%"> </center>
 
 - [Day 1: Secret Entrance](https://adventofcode.com/2025/day/1)
+- [Day 2: Gift Shop](https://adventofcode.com/2025/day/2)

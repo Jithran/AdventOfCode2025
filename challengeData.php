@@ -11,4 +11,9 @@ $challenges = [
         'folder' => 'day01',
         'description' => 'Open up the safe',
     ],
+    2 => [
+        'title' => 'Day 2: Gift Shop',
+        'folder' => 'day02',
+        'description' => 'Open up the safe',
+    ],
 ];

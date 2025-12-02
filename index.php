@@ -1,14 +1,14 @@
 <?php
 
-include 'helper.php';
-include 'update_md.php';
+include 'lib/helper.php';
+include 'lib/update_md.php';
 
 $folders = '';
 foreach ($challenges as $day => $challenge) {
     $folders .= '
     <div class="card">
-        <a href="/' . $challenge['folder'] . '/index.php">
-            <img src="/images/day' . $day . '.png" />
+        <a href="challenge.php?day=' . str_pad($day, 2, '0', STR_PAD_LEFT) . '">
+            <img src="/images/day' . str_pad($day, 2, '0', STR_PAD_LEFT) . '.png" />
             <div class="info">
                 <h2>' . $challenge['title'] . '</h2>
                 ' . (isset($challenge['description']) ? '<p>' . $challenge['description'] . '</p>' : '') . '
@@ -18,13 +18,10 @@ foreach ($challenges as $day => $challenge) {
     </div>';
 }
 
-// select a random header image from the headers folder
-$aHeaders = scandir('headers');
-$randomHeader = $aHeaders[rand(2, count($aHeaders) - 1)];
 $randomHeader = 'header5.webp';
 
 // get the content of index.htm and replace the placeholder with the list of folders
-$index = file_get_contents('index.htm');
+$index = file_get_contents('template/index.htm');
 $index = str_replace('<!-- HEADER -->', $randomHeader, $index);
 $index = str_replace('<!-- FOLDERS -->', $folders, $index);
 echo $index;
