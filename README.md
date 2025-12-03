@@ -6,7 +6,7 @@ This is my repository for the 2025 Advent of Code. I will mainly use PHP, but I 
 <img src="https://img.shields.io/badge/Advent%20of%20Code-2025-brightgreen">
 <img src="https://img.shields.io/badge/PHP-8.4.0-blue">
 </p>
-<center><img src="headers/header5.webp" width="100%"> </center>
+<center><img src="headers/header1.png" width="100%"> </center>
 
 | Afbeelding | Challenge | Link |
 |---|---|---|

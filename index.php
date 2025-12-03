@@ -18,7 +18,7 @@ foreach ($challenges as $day => $challenge) {
     </div>';
 }
 
-$randomHeader = 'header5.webp';
+$randomHeader = 'header2.png';
 
 // get the content of index.htm and replace the placeholder with the list of folders
 $index = file_get_contents('template/index.htm');
