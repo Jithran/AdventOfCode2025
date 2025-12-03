@@ -8,12 +8,14 @@ $config = [
 $challenges = [
     1 => [
         'title' => 'Day 1: Secret Entrance',
-        'folder' => 'day01',
         'description' => 'Open up the safe',
     ],
     2 => [
         'title' => 'Day 2: Gift Shop',
-        'folder' => 'day02',
-        'description' => 'Open up the safe',
+        'description' => 'Find matching patterns in ranges of numbers',
+    ],
+    3 => [
+        'title' => 'Day 3: Lobby',
+        'description' => 'Find batteries with the highest joltage ratings',
     ],
 ];
