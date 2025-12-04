@@ -27,7 +27,15 @@ include 'challenges/day' . $_GET['day'] . '/index.php';
 
 $ch = new Challenge($input);
 
+ob_start();
+
 echo devider(1);
-$ch->partOne();
+echo 'ANSWER: ' . $ch->partOne();
 echo devider(2);
-$ch->partTwo();
+echo 'ANSWER: ' . $ch->partTwo();
+
+$output = ob_get_clean();
+
+file_put_contents('challenges/day' . $_GET['day'] . '/'.(isset($_GET['test']) ? 'test_' : '').'output.txt', strip_tags(str_replace(['<br>', '<br/>', '<br />'], PHP_EOL, $output)));
+
+echo $output;

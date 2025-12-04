@@ -18,4 +18,8 @@ $challenges = [
         'title' => 'Day 3: Lobby',
         'description' => 'Find batteries with the highest joltage ratings',
     ],
+    4 => [
+        'title' => 'Day 4: Printing Department',
+        'description' => 'Organize the rolls of paper in the printing department',
+    ],
 ];

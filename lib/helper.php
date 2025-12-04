@@ -29,5 +29,5 @@ function ddd($data) {
 function dump($data) {
     echo '<pre>';
     print_r($data);
-    echo '</pre>';
+    echo '</pre>'.PHP_EOL;
 }
