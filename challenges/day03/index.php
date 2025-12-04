@@ -34,7 +34,7 @@ class Challenge {
         $maxlen = 12;
         foreach($this->input AS $val) {
             $highest = $this->maxSubsequence($val, $maxlen);
-            dump($val . ' -> ' . $highest);
+            //dump($val . ' -> ' . $highest);
             $total += intval($highest);
         }
 
