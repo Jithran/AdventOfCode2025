@@ -14,3 +14,4 @@ This is my repository for the 2025 Advent of Code. I will mainly use PHP, but I 
 | <img src="images/day02.png" alt="Day 02" width="240" /> | [Day 2: Gift Shop](https://adventofcode.com/2025/day/2) | [View Challenge Code]( /challenges/day02/index.php ) |
 | <img src="images/day03.png" alt="Day 03" width="240" /> | [Day 3: Lobby](https://adventofcode.com/2025/day/3) | [View Challenge Code]( /challenges/day03/index.php ) |
 | <img src="images/day04.png" alt="Day 04" width="240" /> | [Day 4: Printing Department](https://adventofcode.com/2025/day/4) | [View Challenge Code]( /challenges/day04/index.php ) |
+| <img src="images/day05.png" alt="Day 05" width="240" /> | [Day 5: Cafeteria](https://adventofcode.com/2025/day/5) | [View Challenge Code]( /challenges/day05/index.php ) |

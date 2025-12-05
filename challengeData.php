@@ -22,4 +22,8 @@ $challenges = [
         'title' => 'Day 4: Printing Department',
         'description' => 'Organize the rolls of paper in the printing department',
     ],
+    5 => [
+        'title' => 'Day 5: Cafeteria',
+        'description' => 'Manage the cafeteria inventory system',
+    ],
 ];
